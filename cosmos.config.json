@@ -1,0 +1,7 @@
+{
+  "watchDirs": ["src/lib"],
+  "webpack": {
+    "configPath": "react-scripts/config/webpack.config",
+    "overridePath": "cosmos.override.js"
+  }
+}
