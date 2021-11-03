@@ -1,0 +1,18 @@
+{
+  "extends": ["../../.eslintrc.json"],
+  "plugins": ["better-styled-components"],
+  "rules": {
+    "better-styled-components/sort-declarations-alphabetically": "error",
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          {
+            "name": "styled-components/macro",
+            "message": "Please import from lib/styled to get the correct typings."
+          }
+        ]
+      }
+    ]
+  }
+}
